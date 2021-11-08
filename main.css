@@ -1,0 +1,103 @@
+body
+{
+text-align: center; 
+background-color: #A6B3B1;
+}
+a
+{
+    color: black;
+    font-weight: bold;
+}
+#greeting
+{
+    border: solid 4px brown;
+    border-radius: 25px;
+    padding: 4px;
+    margin: 0 5px 0 5px;
+}
+#contact
+{ 
+    color: black;
+    text-align: right;
+    text-decoration: dashed;
+}
+#content 
+{
+text-align: center;
+}
+#heading
+{
+font-size: 45px
+}
+.avatar
+{ 
+    border-radius: 150px;
+    border: solid 40px #34E4C9 ;
+    margin: 5px 0 25px 0;  
+}
+.coloredBg
+{
+ margin: 0 auto;
+border: solid black 3px;
+border-radius: 50px;
+width: 84%;   
+padding: 100px;
+text-shadow: 2px 2px 2px white ;
+
+}
+.flexContainer 
+{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 400px;
+   text-align: center;
+   border-radius: 40px;
+}
+#HTML
+{
+
+border-radius: 40px 0 0 40px;
+border: black solid 3px;
+font-size: larger;
+font-weight: bold;
+text-shadow: 2px 2px 2px white ;
+}
+#CSS
+{
+
+border-style:  solid none solid none;
+font-size: larger;  
+font-weight: bold;
+text-shadow: 2px 2px 2px white ;
+}
+#JavaScript
+{
+
+border-radius: 0 40px 40px 0;
+border: black solid 3px;
+font-size: larger;
+font-weight: bold;
+text-shadow: 2px 2px 2px white ;
+}
+#projectHeader 
+{
+    text-align: center;
+}
+.projects
+{
+    text-align: center;
+}
+#works
+{
+    margin:5px;
+    border-radius: 25px;
+    border: outset 3px rgb(158, 146, 146);
+}
+#projectHeader
+{
+    border-radius: 25px;
+    font-size: 50px;
+    margin: 10px 25%;
+    text-shadow: 2px 2px 2px ;
+}
