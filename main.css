@@ -1,7 +1,7 @@
 body
 {
 text-align: center; 
-background-color: #A6B3B1;
+background: linear-gradient(white,gray,aquamarine,gray,white)
 }
 a
 {
