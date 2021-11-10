@@ -88,6 +88,14 @@ text-shadow: 2px 2px 2px white ;
 {
     text-align: center;
 }
+.hover
+{
+    transition: all 350ms ease-in-out;
+}
+.hover:hover 
+{
+    height: 210px;
+}
 #works
 {
     margin:5px;
