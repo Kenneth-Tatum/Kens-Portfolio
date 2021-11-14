@@ -10,7 +10,7 @@ a
 }
 #greeting
 {
-    border: solid 4px brown;
+    border: solid 4px rgb(66, 158, 168);
     border-radius: 25px;
     padding: 4px;
     margin: 0 5px 0 5px;
