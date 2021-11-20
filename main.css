@@ -15,6 +15,11 @@ a
     padding: 4px;
     margin: 0 5px 0 5px;
 }
+.intro 
+{
+    border-radius: 100px;
+    margin: 0 225px 0 225px;
+}
 #contact
 { 
     color: black;
@@ -90,7 +95,7 @@ text-shadow: 2px 2px 2px white ;
 }
 .hover
 {
-    transition: all 350ms ease-in-out;
+    transition: all 850ms ease-in-out;
 }
 .hover:hover 
 {
