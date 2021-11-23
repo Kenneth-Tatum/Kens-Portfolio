@@ -119,3 +119,7 @@ background-color: lightgray;
     margin: 10px 25%;
     text-shadow: 2px 2px 2px ;
 }
+.italics
+{
+    font-style: italic
+}

@@ -19,16 +19,16 @@ var cssBut = document.getElementById("css")
 var javaBut = document.getElementById("java")
 
 // grabbing all repective list elements
-var htmlItems = document.querySelectorAll("htmlItem")
-var cssItems = document.querySelectorAll("cssItem")
-var jsItems = document.querySelectorAll("jsItem")
+var htmlItems = document.querySelectorAll("li.htmlItem")
+var cssItems = document.querySelectorAll("li.cssItem")
+var jsItems = document.querySelectorAll("li.jsItem")
 
 function changeHTML() {
     htmlItems
 }
 
 function changeCSS() {
-    cssItems
+    cssItems.classList.toggle("italics")
 }
 
 function changeJs() {
