@@ -18,13 +18,13 @@ var htmlBut = document.getElementById("html")
 var cssBut = document.getElementById("css")
 var javaBut = document.getElementById("java")
 
-// grabbing all repective list elements
+// grabbing all respective list elements
 var htmlItems = document.querySelectorAll("li.htmlItem")
 var cssItems = document.querySelectorAll("li.cssItem")
 var jsItems = document.querySelectorAll("li.jsItem")
 
 function changeHTML() {
-    htmlItems
+    htmlItems.classList.toggle("bgColor")
 }
 
 function changeCSS() {
@@ -32,5 +32,5 @@ function changeCSS() {
 }
 
 function changeJs() {
-    jsItems
+    jsItems.
 }
