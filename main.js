@@ -1,36 +1,39 @@
 // changing the intro head onmouseover and mouseout
-var intro = document.getElementById("intro")
-intro.onmouseover = changeIntro
-intro.onmouseout = changeBack
+var intro = document.getElementById("intro");
+intro.onmouseover = changeIntro;
+intro.onmouseout = changeBack;
 
 function changeIntro() {
-    intro.innerHTML = "Hello and welcome to my portfolio!"
-    intro.style.fontSize="50px"
-    intro.style.backgroundColor="#34E4C9"
+  intro.innerHTML = "Hello and welcome to my portfolio!";
+  intro.style.fontSize = "50px";
+  intro.style.backgroundColor = "#34E4C9";
 }
 function changeBack() {
-    intro.innerHTML = "I'm a self-taught soon to be Software Engineer."
-    intro.style.fontSize="25px"
-    intro.style.backgroundColor=""
+  intro.innerHTML = "I'm a self-taught soon to be Software Engineer.";
+  intro.style.fontSize = "25px";
+  intro.style.backgroundColor = "";
 }
 // grabbing all button elements
-var htmlBut = document.getElementById("html")
-var cssBut = document.getElementById("css")
-var javaBut = document.getElementById("java")
+var htmlBut = document.getElementById("html");
+var cssBut = document.getElementById("css");
+var javaBut = document.getElementById("java");
 
 // grabbing all respective list elements
-var htmlItems = document.querySelectorAll("li.htmlItem")
-var cssItems = document.querySelectorAll("li.cssItem")
-var jsItems = document.querySelectorAll("li.jsItem")
+var htmlItems = document.querySelectorAll("li.htmlItem");
+var cssItems = document.querySelectorAll("li.cssItem");
+var jsItems = document.querySelectorAll("li.jsItem");
+var parent = document.getElementById("JavaScript");
+var child = document.getElementById("unordered");
 
 function changeHTML() {
-    htmlItems.classList.toggle("bgColor")
+  htmlItems.classList.toggle("bgColor");
 }
 
 function changeCSS() {
-    cssItems.classList.toggle("italics")
+  cssItems.classList.toggle("italics");
 }
 
 function changeJs() {
-    jsItems.
+  var newOl = document.createElement("ol");
+  parent.replaceChild(newOL, child);
 }
